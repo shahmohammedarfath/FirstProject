@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+}
+
+.column{
+    float: left;
+}
+
+.bg img{
+    width: 50vw;
+    height: 100vh;
+}
+
+.container{
+    width: 50vw;
+    height: 100vh;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(223,11,110,1) 48%, rgba(0,212,255,1) 100%);  */
+    background-color: #6f2dbd;
+}
+
+.container img{
+    width: 50vw;
+    height: 100vh;
+    overflow: inherit;
+}
+
+.card{
+    /* border: 1px solid black; */
+    border-radius: 17px;
+    box-shadow:  10px 10px #b298dc;
+    width: 25vw;
+    height: 55vh;
+    text-align: center;
+    position: relative;
+    top: 17%;
+    left: 25%;
+    background-color: #a663cc;
+}
+
+.card h3{
+    margin: 15px;
+    font-size: 20px;
+    font-style: bold;
+    font-family: 'Press Start 2P', cursive;
+    padding: 16px;
+    padding-top: 35px 
+}
+
+.card h4{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Changa', sans-serif;
+}
+
+.card a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.card a:hover{
+    color: #fff;
+}
+
+label{
+    padding: 15px;
+    font-style: bold;
+    font-size: 24px;
+    font-family: 'Changa', sans-serif;
+}
+
+input{
+    height: 22px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-style: none;
+    border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 4px;
+}
+input[type=password]{
+    margin-left: 8px;
+}
+
+button{
+    width: 300px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #6f2dbd;
+}
